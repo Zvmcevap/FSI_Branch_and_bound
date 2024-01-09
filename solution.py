@@ -65,14 +65,3 @@ initial_state_goal_state_pairs = [
 for initial_state, goal_state in initial_state_goal_state_pairs:
     problem = GPSProblem(initial_state, goal_state, romania)
     run_search_cases(initial_state, goal_state, problem)
-
-with open('solutions.txt') as f:
-    sol_1 = f.readlines()
-with open('solutions2.txt') as f:
-    sol_2 = f.readlines()
-
-for i in range(len(sol_1)):
-    l1, l2 = sol_1[i].strip(), sol_2[i].strip()
-    print(l1 == l2)
-    if l1 != l2:
-        print(l1, l2)
