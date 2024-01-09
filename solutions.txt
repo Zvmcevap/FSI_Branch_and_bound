@@ -1,0 +1,45 @@
+Road from A to: B
+Breadth-first Search:
+Route: [<Node B>, <Node F>, <Node S>, <Node A>], Generated: 4, Visited: 3, Total Cost: 450
+Depth-first Search:
+Route: [<Node B>, <Node P>, <Node C>, <Node D>, <Node M>, <Node L>, <Node T>, <Node A>], Generated: 8, Visited: 7, Total Cost: 733
+Branch and Bound:
+Route: ['B', 'P', 'R', 'S', 'A'], Generated: 32, Visited: 13, Total Cost: 418
+Branch and Bound with Underestimation:
+Route: ['B', 'P', 'R', 'S', 'A'], Generated: 15, Visited: 6, Total Cost: 418
+Road from O to: E
+Breadth-first Search:
+Route: [<Node E>, <Node H>, <Node U>, <Node B>, <Node F>, <Node S>, <Node O>], Generated: 7, Visited: 6, Total Cost: 730
+Depth-first Search:
+Route: [<Node E>, <Node H>, <Node U>, <Node B>, <Node P>, <Node R>, <Node S>, <Node O>], Generated: 8, Visited: 7, Total Cost: 698
+Branch and Bound:
+Route: ['E', 'H', 'U', 'B', 'P', 'R', 'S', 'O'], Generated: 65, Visited: 18, Total Cost: 698
+Branch and Bound with Underestimation:
+Route: ['E', 'H', 'U', 'B', 'P', 'R', 'S', 'O'], Generated: 38, Visited: 12, Total Cost: 698
+Road from G to: Z
+Breadth-first Search:
+Route: [<Node Z>, <Node A>, <Node S>, <Node F>, <Node B>, <Node G>], Generated: 6, Visited: 5, Total Cost: 615
+Depth-first Search:
+Route: [<Node Z>, <Node A>, <Node T>, <Node L>, <Node M>, <Node D>, <Node C>, <Node P>, <Node R>, <Node S>, <Node F>, <Node B>, <Node G>], Generated: 13, Visited: 12, Total Cost: 1284
+Branch and Bound:
+Route: ['Z', 'A', 'S', 'R', 'P', 'B', 'G'], Generated: 54, Visited: 18, Total Cost: 583
+Branch and Bound with Underestimation:
+Route: ['Z', 'A', 'S', 'R', 'P', 'B', 'G'], Generated: 25, Visited: 10, Total Cost: 583
+Road from N to: D
+Breadth-first Search:
+Route: [<Node D>, <Node C>, <Node P>, <Node B>, <Node U>, <Node V>, <Node I>, <Node N>], Generated: 8, Visited: 7, Total Cost: 765
+Depth-first Search:
+Route: [<Node D>, <Node C>, <Node P>, <Node R>, <Node S>, <Node F>, <Node B>, <Node U>, <Node V>, <Node I>, <Node N>], Generated: 11, Visited: 10, Total Cost: 1151
+Branch and Bound:
+Route: ['D', 'C', 'P', 'B', 'U', 'V', 'I', 'N'], Generated: 38, Visited: 14, Total Cost: 765
+Branch and Bound with Underestimation:
+Route: ['D', 'C', 'P', 'B', 'U', 'V', 'I', 'N'], Generated: 22, Visited: 10, Total Cost: 765
+Road from M to: F
+Breadth-first Search:
+Route: [<Node F>, <Node S>, <Node R>, <Node C>, <Node D>, <Node M>], Generated: 6, Visited: 5, Total Cost: 520
+Depth-first Search:
+Route: [<Node F>, <Node B>, <Node P>, <Node R>, <Node S>, <Node A>, <Node T>, <Node L>, <Node M>], Generated: 9, Visited: 8, Total Cost: 928
+Branch and Bound:
+Route: ['F', 'S', 'R', 'C', 'D', 'M'], Generated: 42, Visited: 14, Total Cost: 520
+Branch and Bound with Underestimation:
+Route: ['F', 'S', 'R', 'C', 'D', 'M'], Generated: 27, Visited: 10, Total Cost: 520
